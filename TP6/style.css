@@ -16,14 +16,14 @@ p{
     font-size: 25px;
 }
 button{
-    background-color: #9b2355;
+    background-color: rgb(167, 42, 94);
     color: rgb(255, 255, 255);
     padding: 14px;
     border: none;
     border-radius: 17px;
 }
 button:hover{
-    background-color: #ec82ae;
+    background-color: rgb(167, 42, 94);
     transform: scale(1.1) rotate(5deg);
 }
 button{
