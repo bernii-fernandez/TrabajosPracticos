@@ -10,3 +10,10 @@ butonej1.oneclick= function(){
         }
 
     }
+
+    let nombreUsuario="Marcos"
+    let nombreUsuario="Nahuel"
+    let b2=document.querySelector("b2")
+    let p2=document.querySelector("p2")
+    let p1=document.querySelector("p1")
+    
