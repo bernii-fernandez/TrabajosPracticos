@@ -1,19 +1,25 @@
-let ej1= documento.querySelector('#ej1')
-let butonej1= documento.querySelector('#butonej1')
-let edad= 15
-butonej1.oneclick= function(){
+let ej1 = documento.querySelector('#ej1')
+let butonej1 = documento.querySelector('#butonej1')
+let edad = 15
+butonej1.onclick = function () {
     //ej1.textContent= 'resultado'
-    if(edad >=18) {
-        ej1.textContent= 'sos mayor de edad'
+    if (edad >= 18) {
+        ej1.textContent = 'sos mayor de edad'
     } else {
-            ej1.textContent= 'sos menor de edad'
-        }
-
+        ej1.textContent = 'sos menor de edad'
     }
 
-    let nombreUsuario="Marcos"
-    let nombreUsuario="Nahuel"
-    let b2=document.querySelector("b2")
-    let p2=document.querySelector("p2")
-    let p1=document.querySelector("p1")
-    
+}
+
+let nombreUsuario = "Katia"
+let b2 = document.querySelector("#botonej2")
+let p2 = document.querySelector("#ej2")
+
+b2.onclick = function(){
+    if (nombreUsuario == 'Nahuel') {
+        p2.textContent = "Bienvenido Nahuel ¿bienvenido como estas?"
+    } else {
+        p1.textContent = "bienvenido usuario"
+    }
+}
+
